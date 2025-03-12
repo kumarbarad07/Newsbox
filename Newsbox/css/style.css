@@ -1,0 +1,309 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+body {
+    background-color: #ffffff;
+    font-family: "Raleway", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+img,
+video {
+    object-fit: cover;
+}
+
+.dropdown a {
+    font-size: 14px;
+}
+
+.navbar-nav li:hover {
+    color: #EF1B48;
+}
+
+.t-news-container p:hover {
+    color: #EF1B48;
+}
+
+.blog-text-1:hover {
+    color: #EF1B48;
+}
+
+.play-btn i:hover {
+    color: #080102;
+}
+.navbar-brand {
+    width: 130px;
+}
+
+.navbar-brand img {
+    width: 100%;
+}
+
+.menubar i {
+    font-size: 30px;
+}
+
+.offcanvas-add {
+    width: 270px;
+}
+
+.offcanvas-add img {
+    width: 100%;
+}
+
+.t-news-container {
+    height: 80px;
+}
+
+.trend-box {
+    height: 50px;
+    align-content: center;
+}
+
+.hero-content {
+    height: 400px;
+}
+
+.blog-box-one {
+    width: 95%;
+    height: 100%;
+    margin-bottom: 100px;
+}
+
+.one {
+    width: 96%;
+    height: 100%;
+}
+
+.blog-text-1 {
+    top: 150px;
+    left: 20px;
+    line-height: 7px;
+}
+
+.blog-box-two {
+    width: 96%;
+    height: 50%;
+}
+
+.two {
+    width: 96%;
+    height: 100%;
+}
+
+.blog-text-2 {
+    top: 50px;
+    left: 20px;
+    line-height: 7px;
+}
+
+.blog-box-three {
+    width: 97%;
+    height: 100%;
+}
+
+.mid {
+    height: 20px;
+}
+
+.three {
+    width: 96%;
+    height: 100%;
+}
+
+.blog-text-3 {
+    top: 50px;
+    left: 20px;
+    line-height: 7px;
+}
+
+.dropdown-menu {
+    width: 100%
+}
+
+.all-news {
+    margin-top: 100px;
+}
+
+.news-bar {
+    height: auto;
+}
+
+.figure-one,
+.figure-two {
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    transform-origin: bottom;
+}
+
+.backInUp:hover {
+    animation-name: backInUp;
+    animation-timing-function: ease;
+    color: #EF1B48;
+}
+
+.fig-3:hover,
+.fig-4:hover,
+.fig-5:hover,
+.fig-6:hover,
+.fig-7:hover,
+.fig-8:hover {
+    color: #EF1B48;
+}
+
+@keyframes backInUp {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-50px);
+    }
+
+}
+
+.subscribe-1 {
+    font-size: 14px;
+}
+
+.traffic-problems {
+    background-image: url(../images/10.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position-x: center;
+}
+
+.play-btn i {
+    font-size: 30px;
+}
+
+.time-square {
+    height: 400px;
+}
+
+.footer-nav li:hover{
+    color: #EF1B48;
+}
+.social-media-icons i:hover{
+    color: #EF1B48;
+}
+small:hover{
+    color: #EF1B48;
+}
+
+
+@media (min-width:768px) {
+    .blog-box-one {
+        width: 95%;
+        height: 100%;
+        margin-bottom: 100px;
+    }
+
+    .one {
+        width: 48%;
+        height: 100%;
+    }
+
+    .blog-text-1 {
+        top: 230px;
+        left: 20px;
+        line-height: 7px;
+    }
+
+    .blog-box-two {
+        width: 95%;
+        height: 40%;
+    }
+
+    .two {
+        width: 95%;
+        height: 100%;
+    }
+
+    .blog-text-2 {
+        top: 70px;
+        left: 20px;
+        line-height: 7px;
+    }
+
+    .blog-box-three {
+        width: 100%;
+        height: 100%;
+    }
+
+    .three {
+        width: 98%;
+        height: 100%;
+    }
+
+    .blog-text-3 {
+        top: 70px;
+        left: 20px;
+        line-height: 7px;
+    }
+}
+
+@media (min-width:992px) {
+
+    .blog-box-one {
+        width: 95%;
+        height: 100%;
+        margin-bottom: 100px;
+    }
+
+    .one {
+        width: 48%;
+        height: 100%;
+    }
+
+    .blog-text-1 {
+        top: 300px;
+        left: 20px;
+        line-height: 7px;
+    }
+
+    .blog-box-two {
+        width: 95%;
+        height: 40%;
+    }
+
+    .two {
+        width: 96%;
+        height: 100%;
+    }
+
+    .blog-text-2 {
+        top: 100px;
+        left: 20px;
+        line-height: 7px;
+    }
+
+    .blog-box-three {
+        width: 100%;
+        height: 100%;
+    }
+
+    .three {
+        width: 96%;
+        height: 100%;
+    }
+
+    .blog-text-3 {
+        top: 100px;
+        left: 20px;
+        line-height: 7px;
+    }
+}
